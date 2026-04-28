@@ -52,7 +52,6 @@ const DEFAULT_SOURCE_DIR = "D:\\Spring Framework & Spring Boot desde cero a expe
 const DEFAULT_OUTPUT_DIR = "D:\\Spring Framework & Spring Boot desde cero a experto-web";
 
 export const Route = createFileRoute("/")({
-  ssr: false,
   head: () => ({
     meta: [
       { title: "LocalCourse - Reproductor de cursos locales" },

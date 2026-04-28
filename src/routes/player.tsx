@@ -34,7 +34,6 @@ import { cn } from "@/lib/utils";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/player")({
-  ssr: false,
   head: () => ({
     meta: [
       { title: "Reproductor — LocalCourse" },
